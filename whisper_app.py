@@ -2,8 +2,9 @@ import streamlit as st
 from openai import OpenAI
 import PyPDF2
 
+api_key = st.secrets["API_KEY"]
 # OpenAI 클라이언트 설정
-client = OpenAI()
+client = OpenAI(api_key=api_key)
 
 # 페이지 wide로 설정
 st.set_page_config(layout="wide")
