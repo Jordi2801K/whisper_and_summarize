@@ -67,7 +67,7 @@ The summary should be as detailed as possible, minimizing omissions.
 
 After summarizing each group of related content, provide an overall summary at the end that encapsulates the entire document. Additionally, highlight the most important points or concepts that the student should focus on while studying.
 
-"Once again, when summarizing, you must only use the content provided in the document, and the summary must not contain any incorrect information or hallucinations."
+Once again, when summarizing, you must only use the content provided in the document, and the summary must not contain any incorrect information or hallucinations.
 
 You must write the response in Korean.
 """
