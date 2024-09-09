@@ -3,9 +3,9 @@ from openai import OpenAI
 import PyPDF2
 
 # # 이거는 streamlit에 배포할 때 쓰는 api key 설정
-# api_key = st.secrets["API_KEY"]
+api_key = st.secrets["API_KEY"]
 # OpenAI 클라이언트 설정
-client = OpenAI()
+client = OpenAI(api_key=api_key)
 
 # 페이지 wide로 설정
 st.set_page_config(layout="wide")
